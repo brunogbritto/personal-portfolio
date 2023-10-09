@@ -19,7 +19,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/FotoPerfil.png"
+              src="/FotoPerfilv2.png"
               alt="Imagem de perfil Bruno"
               width="192"
               height="192"
@@ -30,7 +30,7 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function Intro() {
         Olá! Sou desenvolvedor full stack com formação jurídica e especialização
         em Direito Digital. Tenho conhecimento em linguagens de programação
         utilizadas no desenvolvimento web.
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-5 px-4 text-lg font-medium"
@@ -64,7 +64,7 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/20"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/bruno-britto-285b1913a/"
           target="_blank"
         >
           <BsLinkedin />
