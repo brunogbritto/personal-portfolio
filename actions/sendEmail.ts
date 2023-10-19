@@ -1,6 +1,6 @@
 "use server";
 
-import { validateString } from "@/lib/utils";
+import { validateString, getErrorMessage } from "@/lib/utils";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -21,12 +21,17 @@ export const sendEmail = async (formData: FormData) => {
       error: "Invalid Message",
     };
   }
-
-  await resend.emails.send({
-    from: "Formulário de Contato <onboarding@resend.dev>",
-    to: "brno.britto@gmail.com",
-    subject: "Mensagem teste do formulário de contato.",
-    reply_to: senderEmail as string,
-    text: message as string,
-  });
+  try {
+    await resend.emails.send({
+      from: "Formulário de Contato <onboarding@resend.dev>",
+      to: "brno.britto@gmail.com",
+      subject: "Mensagem teste do formulário de contato.",
+      reply_to: senderEmail as string,
+      text: message as string,
+    });
+  } catch (error: unknown) {
+    return {
+      error: getErrorMessage(error),
+    };
+  }
 };
