@@ -37,7 +37,12 @@ export default function Contact() {
         ou através do formulário abaixo:
       </p>
 
-      <form className="mt-10 flex flex-col" action={sendEmail}>
+      <form
+        className="mt-10 flex flex-col"
+        action={async (formData) => {
+          await sendEmail(formData);
+        }}
+      >
         <input
           type="email"
           name="senderEmail"
@@ -51,7 +56,7 @@ export default function Contact() {
           name="message"
           placeholder="Digite sua mensagem para mim."
           required
-          maxLength={500}
+          maxLength={5000}
         />
         <button
           type="submit"
