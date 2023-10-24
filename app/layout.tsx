@@ -23,6 +23,7 @@ export default function RootLayout({
       >
         <div className="bg-[#c0d8ff] absolute top-[-6rem] right-[11rem] h-[31.25rem] -z-10 w-[31.25rem] rounded-full blur-[10rem] opacity-70 sm:w-[68.75rem]"></div>
         <div className="bg-[#afccfd] absolute top-[-1rem] left-[-35rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] opacity-70 sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+
         <ActiveSectionContextProvider>
           <Header />
           {children}
