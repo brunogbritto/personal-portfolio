@@ -30,16 +30,19 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Entre em contato</SectionHeading>
-      <p className="text-gray-700 -mt-6">
+      <p className="text-gray-700 -mt-6 dark:text-white/80">
         Entre em contato diretamente{" "}
-        <a className="underline" href="mailto:brunoogbritto@gmail.com">
+        <a
+          className="underline dark:text-white:80"
+          href="mailto:brunoogbritto@gmail.com"
+        >
           brunoogbritto@gmail.com
         </a>{" "}
         ou através do formulário abaixo:
       </p>
 
       <form
-        className="mt-10 flex flex-col"
+        className="mt-10 flex flex-col dark:text-gray-900"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
           if (error) {
