@@ -35,28 +35,43 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Banco Cruzeiro do Sul, estagiário",
+    location: "Rio de Janeiro, RJ",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Auxílio na revisão e gestão de contratos em operações financeiras, com foco particular na cessão de crédito. Desenvolvi competências de análise contratuais, assegurando alinhamento com os objetivos estratégicos do banco e conformidade com o quadro regulatório. Bem como, suporte em questões societárias, cíveis e trabalhistas referentes ao interesse da empresa.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Out. 2010 - Set. 2012",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Bradesco Seguros, estagiário",
+    location: "Rio de Janeiro, RJ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Colaborei na elaboração e revisão de atos societários, acompanhamento em diligências administrativas, além de apoiar a equipe na conformidade regulatória de planos de saúde.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Abr. 2013 - Nov. 2014",
+  },
+  {
+    title: "Graduação em Direito",
+    location: "Rio de Janeiro, RJ",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2010 - 2016",
+  },
+  {
+    title: "Pontes Advogados, Advogado",
+    location: "Rio de Janeiro, RJ",
+    description:
+      "Como advogado atuante na área Trabalhista, conduzia a elaboração e revisão de peças processuais, atuando com rigor técnico e estratégico para a defesa dos direitos dos clientes. Assim como, realizava a preparação e condução de audiências trabalhistas; acompanhamento e controle de prazos processuais para assegurar o cumprimento efetivo de todas as etapas processuais.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov. 2016 - Abr. 2020",
+  },
+  {
+    title: "Pontes & Britto, Advogado",
+    location: "Rio de Janeiro, RJ",
+    description:
+      "Advogado atuante na área trabalhista, administrativa, cível e digital. Acompanhamento de processos, elaboração de pareceres, peças processuais e audiências. Prática em assuntos de cybersecurity e proteção de dados pessoais, auxiliando clientes com demandas que incluem, entre outas atividades, mapeamento de fluxo de dados, a elaboração, análise e revisão de termos de uso e políticas de privacidade.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Abr. 2016 - Atualmente",
   },
 ] as const;
 
