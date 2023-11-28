@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import brecholaImg from "@/public/brechola.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -66,22 +66,29 @@ export const experiencesData = [
     date: "Nov. 2016 - Abr. 2020",
   },
   {
+    title: "Graduação em Direito Digital",
+    location: "Rio de Janeiro, RJ",
+    description: "",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2020",
+  },
+  {
     title: "Pontes & Britto, Advogado",
     location: "Rio de Janeiro, RJ",
     description:
       "Advogado atuante na área trabalhista, administrativa, cível e digital. Acompanhamento de processos, elaboração de pareceres, peças processuais e audiências. Prática em assuntos de cybersecurity e proteção de dados pessoais, auxiliando clientes com demandas que incluem, entre outas atividades, mapeamento de fluxo de dados, a elaboração, análise e revisão de termos de uso e políticas de privacidade.",
     icon: React.createElement(CgWorkAlt),
-    date: "Abr. 2016 - Atualmente",
+    date: "Abr. 2020 – Julho 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Brechola",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: brecholaImg,
   },
   {
     title: "rmtDev",
