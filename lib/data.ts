@@ -80,6 +80,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Abr. 2020 – Julho 2023",
   },
+  {
+    title: "Bootcamp Desenvolvedor Full Stack - Infnet",
+    location: "Rio de Janeiro, RJ",
+    description:
+      "Como parte da minha transição de carreira do Direito para o Desenvolvimento de Software, participei de um bootcamp intensivo de programação, onde adquiri habilidades práticas e teóricas em desenvolvimento web. Meu principal projeto foi a criação deste site pessoal de portfólio, desenvolvido com a intenção de demonstrar minhas competências técnicas e projetos realizados.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jan. 2023 - Set. 2023",
+  },
 ] as const;
 
 export const projectsData = [
