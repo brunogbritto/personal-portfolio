@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { FaSearch, FaLaptopCode, FaBook, FaStar } from "react-icons/fa";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Sobre mim");
 
   return (
     <motion.section
