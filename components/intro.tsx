@@ -87,7 +87,7 @@ export default function Intro() {
         <a
           className="bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/20
           dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/brunogbritto"
           target="_blank"
         >
           <FaGithubSquare />
